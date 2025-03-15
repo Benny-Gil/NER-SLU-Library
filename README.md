@@ -11,3 +11,6 @@ A Named Entity Recognition (NER) project for the SLU Library(hypothetical), desi
 - [ ] Evaluation and Testing
 - [ ] Agent Development
 - [ ] Integration
+
+## Dataset
+Walia, A. (2018). Annotated Corpus for Named Entity Recognition [Dataset]. Kaggle. https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus
