@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Load spaCy model
 try:
     # You can use a different model if needed
-    nlp = spacy.load("en_core_web_sm")
+    nlp = spacy.load("../training/output/model-best")
 except OSError:
     # If model not found, download it
     import spacy.cli
@@ -16,7 +16,7 @@ except OSError:
     nlp = spacy.load("en_core_web_sm")
 
 
-@app.route("/api/tagger", methods=["POST"])
+@app.route("/api/ner", methods=["POST"])
 def extract_entities():
     """
     Extract named entities from text using spaCy
