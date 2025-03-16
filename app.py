@@ -9,7 +9,7 @@ st.set_page_config(page_title="SLU Library NER Demo", layout="wide")
 
 @st.cache_resource
 def load_model():
-    return spacy.load("../training/output/model-best")
+    return spacy.load("training/output/model-best")
 
 nlp = load_model()
 
