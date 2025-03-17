@@ -42,4 +42,4 @@ streamlit run app.py
 ```
 
 ## Dataset
-Walia, A. (2018). Annotated Corpus for Named Entity Recognition. [Kaggle link](https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus)
+Walia, A. (2018). Annotated Corpus for Named Entity Recognition. Kaggle. https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus
